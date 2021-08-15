@@ -37,7 +37,7 @@ For each function space, rust-code-analysis computes the list of metrics describ
 2. Run the analysis tool for the frontend
 
 ```bash
- ./rust-code-analysis-cli -m --pr -p /path/to/teknikattan-scoring-system/client/src -o /path/to/metrics-client -O json
+ ./rust-code-analysis-cli -m --pr -p /path/to/client/src -o /path/to/metrics-client -O json
 ```
 
 # Backend
@@ -45,7 +45,7 @@ For each function space, rust-code-analysis computes the list of metrics describ
 3. Run the analysis tool for the backend
 
 ```bash
- ./rust-code-analysis-cli -m --pr -p /path/to/teknikattan-scoring-system/server/app -o /path/to/metrics-server -O json
+ ./rust-code-analysis-cli -m --pr -p /path/to/server/app -o /path/to/metrics-server -O json
 ```
 
 # Metrics
